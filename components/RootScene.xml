@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="RootScene" extends="Scene">
+    <script type="text/brightscript"  uri="pkg:/components/RootScene.brs"/>
+    <children>
+        <RowList 
+            id = "main_row_list" 
+            translation = "[100, 100]" 
+            itemComponentName = "MainItem" 
+            numRows = "4" 
+            itemSize = "[1120, 200]" 
+            rowItemSize = "[[270, 152]]" 
+            itemSpacing = "[0, 40]"
+            rowItemSpacing = "[[20, 0]]"
+            showRowLabel = "[true]"
+            rowLabelOffset = "[[0, 20]]"
+            drawFocusFeedback = "true"
+            drawFocusFeedbackOnTop = "true"
+            vertFocusAnimationStyle = "floatingFocus" 
+            rowFocusAnimationStyle = "floatingFocus" />
+    </children>
+</component>

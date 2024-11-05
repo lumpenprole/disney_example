@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainItem" extends="group">
+    <script type="text/brightscript"  uri="pkg:/components/MainItem.brs"/>
+    <interface>
+        <field id="itemContent" type="node" onChange="handleData" />
+        <field id = "focusPercent" type = "float" onChange = "showfocus"/> 
+    </interface>
+    <children>
+        <LayoutGroup layoutDirection="vert" vertAlignment="top" itemSpacings="0" translation="[0,0]" >
+            <Poster id="item_image" translation="[5,5]" width="250" height="141" scaleRotateCenter="[125.0,70.5]" />
+            <!-- <Label id="item_title" horizAlign="center" translation="[0,0]" font="font:MediumSystemFont" width="196" height="65" /> -->
+        </LayoutGroup>
+    </children>
+</component>

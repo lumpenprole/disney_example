@@ -1,0 +1,10 @@
+title=Disney_example_project
+major_version=1
+minor_version=0
+build_version=0
+mm_icon_focus_hd=pkg:/img/icon_focus_hd.jpg
+mm_icon_focus_sd=pkg:/img/icon_focus_sd.jpg
+splash_screen_sd=pkg:/img/splash_sd.jpg
+splash_screen_hd=pkg:/img/splash_hd.jpg
+splash_color=#35c4ca
+splash_min_time=1000
