@@ -1,6 +1,8 @@
 sub init()
     m.itemImage = m.top.findNode("item_image")
     m.itemTitle = m.top.findNode("item_title")
+
+    m.itemImage.failedBitmapUri = "pkg:/img/default_image.jpg"
 end sub
 
 sub handleData()
