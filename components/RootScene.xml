@@ -4,9 +4,9 @@
     <children>
         <RowList 
             id = "main_row_list" 
-            translation = "[100, 100]" 
+            translation = "[100, 25]" 
             itemComponentName = "MainItem" 
-            numRows = "4" 
+            numRows = "3" 
             itemSize = "[1120, 200]" 
             rowItemSize = "[[270, 152]]" 
             itemSpacing = "[0, 40]"
